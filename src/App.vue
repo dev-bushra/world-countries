@@ -2,8 +2,7 @@
   <div id="app" :class="theme">
     <header id="nav">
       <router-link to="/" class="brand" tag="a"
-        ><i class="fa fa-globe"></i> World Countries</router-link
-      >
+        ><i class="fa fa-globe"></i> World Countries</router-link>
       <div>
         <button v-if="theme === ''" @click="setTheme('dark')">
           <i class="fa fa-moon"></i> Dark Mode
@@ -13,14 +12,12 @@
         </button>
       </div>
     </header>
-
     <main>
       <router-view
         :theme="theme"
         :key="`/country/` + ($route.params.code || '')"
       />
     </main>
-
     <footer>
       <p>Copy Rights All Rights Reserved 2021</p>
       <p>Made With <i class="fa fa-heart"></i> By Bushra Aboubida</p>
