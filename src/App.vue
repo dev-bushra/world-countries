@@ -139,9 +139,11 @@ i {
     .brand {
       font-weight: bold;
     }
+    
     button {
       box-shadow: none;
     }
+    
   }
   footer {
     background: var(--lighter);
