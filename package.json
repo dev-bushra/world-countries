@@ -1,7 +1,6 @@
 {
   "name": "world_countries",
   "version": "0.1.0",
-  "author": "Omer Mahdi",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
